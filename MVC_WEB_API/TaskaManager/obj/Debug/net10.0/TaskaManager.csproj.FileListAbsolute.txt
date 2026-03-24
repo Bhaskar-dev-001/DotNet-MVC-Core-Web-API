@@ -1,0 +1,9 @@
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.csproj.AssemblyReference.cache
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.AssemblyInfoInputs.cache
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.AssemblyInfo.cs
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.csproj.CoreCompileInputs.cache
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/DotNet-MVC-Core-Web-API/MVC_WEB_API/TaskaManager/obj/Debug/net10.0/TaskaManager.sourcelink.json
