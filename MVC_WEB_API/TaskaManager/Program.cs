@@ -68,6 +68,31 @@ builder.Services.AddSwaggerGen(options=>
 
 builder.Services.AddControllers();
 
+// Add CORS support for React frontend (both local and Codespaces)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        if (builder.Environment.IsDevelopment())
+        {
+            // In development (including Codespaces), allow all origins
+            policy
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        }
+        else
+        {
+            // In production, restrict to specific origins
+            policy
+                .WithOrigins("http://localhost:5173", "http://localhost:3000")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
+        }
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -82,6 +107,7 @@ if(app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowReactApp");
 app.UseAuthentication();
 app.UseAuthorization();
 
